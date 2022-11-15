@@ -6,7 +6,7 @@
 }
 
 .bannerImage {
-	background-image: url('./images/coding-banner.webp');
+	background-image: url('../images/coding-banner.webp');
 	background-attachment: fixed;
 	background-position: center left;
 	background-repeat: no-repeat;
