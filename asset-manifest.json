@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.05849aa3.css",
+    "main.js": "/portfolio/static/js/main.e1c4bd1c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/OpenSans.ttf": "/portfolio/static/media/OpenSans.f72efa639bb45d29e62f.ttf",
+    "static/media/coding-banner.webp": "/portfolio/static/media/coding-banner.6f5d0e7a7484af495d63.webp",
+    "static/media/weather.webp": "/portfolio/static/media/weather.a923f80a019ccbaf1321.webp",
+    "static/media/expenses.webp": "/portfolio/static/media/expenses.689e7fa4bc3879b73136.webp",
+    "static/media/code.webp": "/portfolio/static/media/code.b8ebd7dc1103ade1b13c.webp",
+    "static/media/title-black.webp": "/portfolio/static/media/title-black.bdc97d258757a683a706.webp",
+    "static/media/reactbook.webp": "/portfolio/static/media/reactbook.f276e77408fe496a9c5d.webp",
+    "static/media/react-food.webp": "/portfolio/static/media/react-food.74a87c987ee39b86c03d.webp",
+    "index.html": "/portfolio/index.html",
+    "main.05849aa3.css.map": "/portfolio/static/css/main.05849aa3.css.map",
+    "main.e1c4bd1c.js.map": "/portfolio/static/js/main.e1c4bd1c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05849aa3.css",
+    "static/js/main.e1c4bd1c.js"
+  ]
+}
