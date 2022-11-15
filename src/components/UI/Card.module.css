@@ -1,0 +1,29 @@
+.card {
+	background: orange;
+	overflow: hidden;
+
+	color: #222;
+
+	transition: .15s ease-in-out;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+
+	user-select: none;
+
+}
+
+.card h2 {
+	font-size: 25px;
+	font-weight: 600;
+	width: 60%;
+	margin: auto;
+}
+
+/* .card p {
+	font-size: 18px;
+	font-weight: 400;
+	width: 80%;
+	margin: auto;
+} */

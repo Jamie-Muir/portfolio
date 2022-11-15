@@ -1,0 +1,22 @@
+.snippets {
+	margin: auto;
+	padding: 5%;
+	width: 90%;
+	text-align: center;
+	border-top: 3px white solid;
+}
+
+.snippets-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+@media (max-width: 700px) {
+	#snippets {
+		width: 95%;
+		padding: 5% 1%;
+	}
+}

@@ -1,0 +1,20 @@
+.projectCard {
+	height: 250px;
+	filter: brightness(70%);
+	transition: .15s ease-out;
+	background-color: white;
+}
+
+.projectCard:hover {
+	z-index: 999;
+	transform: scale(1.015);
+	filter: brightness(100%);
+
+	outline: #fff 2px solid;
+}
+
+@media (max-width: 688px) {
+	.project-card:hover {
+		transform: none;
+	}
+}

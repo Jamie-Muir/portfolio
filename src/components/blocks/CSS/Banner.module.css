@@ -1,0 +1,82 @@
+#banner {
+	width: 100%;
+	background-color: blue;
+	padding: 50px;
+	border-bottom: 5px white solid;
+}
+
+.bannerImage {
+	background-image: url('./images/coding-banner.webp');
+	background-attachment: fixed;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	 -ms-animation: fadein 2s; /* Internet Explorer */
+	  -o-animation: fadein 2s; /* Opera < 12.1 */
+		 animation: fadein 2s;
+}
+
+.inner {
+	text-align: center;
+	width: 90%;
+	margin: 5% auto;
+	padding: 20px;
+	background-color: rgba(69, 69, 69, 0.5);
+	border: solid white 3px;
+	border-radius: 8px;
+}
+
+h1 {
+	letter-spacing: 3px;
+	font-weight: 900;
+	font-size: 32px;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+.bannerLogos {
+	display: flex;
+	padding-top: 15px;
+	justify-content: space-evenly;
+	border-top: solid white 2px;
+	width: 60%;
+	margin: auto;
+	
+}
+
+svg {
+	fill: #fff;
+	transition: all 0.5s ease-out;
+}
+
+svg:hover {
+	transform: scale(1.15);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
