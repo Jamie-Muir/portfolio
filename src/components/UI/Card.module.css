@@ -15,11 +15,20 @@
 }
 
 .card h2 {
-	font-size: 25px;
+	font-size: 32px;
 	font-weight: 600;
 	width: 60%;
-	margin: auto;
+	margin: 50px auto;
+
+	background-color: rgba(0,0,0, .6);
+	color: white;
+	border: solid white 2px;
+
+	text-align: center;
+	
+
 }
+
 
 /* .card p {
 	font-size: 18px;

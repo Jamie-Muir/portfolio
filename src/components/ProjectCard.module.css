@@ -5,6 +5,10 @@
 	background-color: white;
 }
 
+.cardTitle {
+	background-color: black;
+}
+
 .projectCard:hover {
 	z-index: 999;
 	transform: scale(1.015);

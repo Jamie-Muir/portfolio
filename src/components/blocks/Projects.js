@@ -1,19 +1,20 @@
 import ProjectCard from "../ProjectCard";
 import CardGrid from "../UI/CardGrid";
 
-import gramp from './images/title-black.webp';
-import reactfood from './images/react-food.webp';
-import weather from './images/weather.webp';
-import expenses from './images/expenses.webp';
-import reactbook from './images/reactbook.webp';
-import code from './images/code.webp'
+import gramp from '../images/title-black.webp';
+import reactfood from '../images/react-food.webp';
+import weather from '../images/weather.webp';
+import expenses from '../images/expenses.webp';
+import reactbook from '../images/reactbook.webp';
+import code from '../images/code.webp'
 // import Modal from "../UI/Modal";
 
 function Projects() {
 	return (
 		<CardGrid
-			title='Projects that do me a teachin'
-			description='hiya'
+			title='Projects'
+			description={`Some of my completed projects available for viewing. 
+			Click to find out more.`}
 		>
 			{/* NUMBER 1 */}
 			<ProjectCard

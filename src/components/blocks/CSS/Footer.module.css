@@ -3,11 +3,19 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	min-height: 500px;
+	min-height: 350px;
 	border-top: 5px solid white;
 	background-color: #222157;
 
 	padding-top: 50px;
+
+	background-image: url('../../images/coding-banner.webp');
+	background-attachment: fixed;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	filter: blur(4px);
 }
 
 .wrapper {

@@ -14,7 +14,7 @@ function Banner() {
 						<a href='https://github.com/jamie-muir' aria-label='Github' target='_blank' rel='noreferrer'>
 							<FaGithub size={40} />
 						</a>
-						<a href='https://github.com/jamie-muir' aria-label='LinkedIn' target='_blank' rel='noreferrer'>
+						<a href='https://www.linkedin.com/in/jamie-muir-cs/' aria-label='LinkedIn' target='_blank' rel='noreferrer'>
 							<FaLinkedin size={40} />
 						</a>
 					</div>
