@@ -3,11 +3,24 @@
 	filter: brightness(70%);
 	transition: .15s ease-out;
 	background-color: white;
+	cursor: pointer;
 }
 
-.cardTitle {
-	background-color: black;
+.title {
+	font-size: 32px;
+	font-weight: 600;
+	width: 60%;
+	margin: 50px auto;
+
+	background-color: rgba(0,0,0, .6);
+	color: white;
+	border: solid white 2px;
+
+	text-align: center;
+	
+
 }
+
 
 .projectCard:hover {
 	z-index: 999;
@@ -15,6 +28,10 @@
 	filter: brightness(100%);
 
 	outline: #fff 2px solid;
+}
+
+.projectCard:active {
+	transform: scale(.95);
 }
 
 @media (max-width: 688px) {

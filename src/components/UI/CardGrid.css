@@ -1,11 +1,25 @@
 .block {
 	margin: auto;
-	padding: 2%;
+	padding: 1%;
+	padding-bottom: 2%;
 	background-color: #222157;
 	overflow: hidden;
 	text-align: center;
 }
 
+.title {
+	font-size: 2em;
+	border-bottom: #222157 solid 1px;
+}
+
+.subtitle h3 {
+	font-size: 1.4em;
+	font-weight: 100;
+}
+
+.subtitle p {
+	font-size: 1.2em;
+}
 
 .container {
 	display: grid;

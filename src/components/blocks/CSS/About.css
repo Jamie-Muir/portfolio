@@ -8,3 +8,32 @@
 	font-weight: 300;
 	font-size: larger;
 }
+
+.aboutList {
+	display: flex;
+	justify-content: center;
+	font-size: 1.2em;
+}
+
+.aboutList li {
+	margin: 20px;
+	/* padding: 5px; */
+}
+
+.about-content {
+	display: flex;
+	text-align: left;
+}
+
+.about-content img {
+	width: 40%;
+	margin: auto;
+}
+
+
+@media (max-width: 800px) {
+	.about-content {
+		flex-direction: column;
+		text-align: center;
+	}
+}

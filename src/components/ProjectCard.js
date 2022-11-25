@@ -9,7 +9,10 @@ function ProjectCard(props) {
 
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 
-	const openModal = () => setModalIsOpen(true);
+	const openModal = () => {
+		if(props.disabled) return;
+		setModalIsOpen(true);
+	}
 	const closeModal = () => setModalIsOpen(false);
 
 	const { className, background, ...newProps } = props;
@@ -31,7 +34,7 @@ function ProjectCard(props) {
 					height='250px'
 					width='100%'
 				>
-					{props.showTitle && <h2>{props.title}</h2>}
+					{props.showTitle && <h2 className={styles.title}>{props.title}</h2>}
 				</Card>
 
 			</div>

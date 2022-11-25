@@ -1,7 +1,7 @@
 import ProjectCard from "../ProjectCard";
 import CardGrid from "../UI/CardGrid";
 
-import fizzbuzz from '../images/fizzbuzz.webp';
+import fizzbuzz from '../../assets/images/fizzbuzz.webp';
 
 function Puzzles() {
 	return (
@@ -23,6 +23,7 @@ function Puzzles() {
 			<ProjectCard
 				title='BIG card'
 				className='gridItemReverse'
+				disabled
 			>
 				This is a little card I think
 			</ProjectCard>
@@ -30,6 +31,7 @@ function Puzzles() {
 			<ProjectCard
 				title='BIG card'
 				className='gridItemReverse'
+				disabled
 			>
 				<p>This is a card I think</p>
 			</ProjectCard>
@@ -37,6 +39,7 @@ function Puzzles() {
 			<ProjectCard
 				title='lil Card'
 				className='gridItemReverse'
+				disabled
 			>
 				This is a card I think
 			</ProjectCard>
@@ -44,6 +47,7 @@ function Puzzles() {
 			<ProjectCard
 				title='lil Card'
 				className='gridItemReverse'
+				disabled
 			>
 				This is a card I think
 			</ProjectCard>
@@ -51,6 +55,7 @@ function Puzzles() {
 			<ProjectCard
 				title='BIG Card'
 				className='gridItemReverse'
+				disabled
 			>
 				This is a card I think
 			</ProjectCard>

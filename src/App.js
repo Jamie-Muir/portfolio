@@ -8,9 +8,9 @@ import Footer from './components/blocks/Footer.js';
 function App() {
 	return (
 		<>
-			<Banner /> {/* Needs content and social links */}
-			<Projects /> {/* overlay images */}
-			<About /> {/* Basic Info down */}
+			<Banner /> {/* "done" */}
+			<Projects /> {/* modal needs built */}
+			<About /> {/* write a better about, maybe jazz it up a lil with some  */}
 
 			<Challenges /> {/* clone of projects, maybe inverse bricking*/}
 

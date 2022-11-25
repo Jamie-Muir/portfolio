@@ -5,35 +5,146 @@
 	width: 100vw;
 	height: 100vh;
 	z-index: 1000;
-	background-color: rgba(0,0,0, 0.75);
+	background-color: rgba(0,0,0, 0.85);
 }
 
 .modal {
 	position: fixed;
-	top: 30vh;
-	left: 10%;
-	width: 80%;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
 	z-index: 10000;
 	overflow: auto;
+	background-color: #333 !important;
+	border: #222157 solid 15px;
+	max-height: 80%;
+
+	overflow: hidden;
 }
 
-.header {
-	background: #4f005f;
-	padding: 1rem;
-  }
+.header,
+footer {
+	background: #222157;
+	/* padding: 1em; */
+	text-align: center;
+}
   
-  .header h2 {
+.header h2 {
 	margin: 0;
 	color: white;
-  }
-  
-  .content {
-	padding: 1rem;
-  }
+	padding-top: 10px;
+}
+.header h3 {
+	margin: 0;
+	color: white;
+	padding-bottom: 10px;
+	font-weight: 100;
+}
+.closebtn {
+	display: block;
+	margin: 15px;
+	position: absolute;
+	right: 0;
+	/* top: 0; */
+	border-radius: 50px;
+	background-color: rgba(0,0,0, 0);
+	color: white;
+	border: none;
+	font-size: 2em;
+	cursor: pointer;
+	transition: all ease-out .2s;
+	overflow: hidden;
+}
 
-  @media (min-width: 768px) {
+.closebtn:hover {
+	transform: scale(1.5);
+}
+
+.closebtn:active {
+	color: red;
+	transform: scale(.5);
+}
+
+.techIcons {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1em;
+}
+
+.icon {
+	height: 50px;
+	margin: 10px;
+}
+
+.content {
+	padding: 0px 15px;
+	margin: 1em auto;
+	color: white;
+	/* text-align: center; */
+	font-size: 1.2em;
+	max-height: 35vh;
+	overflow-y: auto;
+}	
+
+.actions {
+	position: relative;
+	/* background-color: #4f005f !important; */
+	padding: 15px;
+	width: 100%;
+	min-height: 2em;
+
+}
+
+.actions button {
+	padding: 0.5em .8em;
+	margin: 0 .4em;
+	background-color: #333;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: grey;
+	transition: all linear .05s;
+	cursor: pointer;
+}
+
+.actions button:hover {
+	background-color: orange;
+	color: black;
+}
+
+@media (min-width: 768px) {
 	.modal {
-	  left: calc(50% - 20rem);
-	  width: 40rem;
+		/* left: calc(50% - 20rem); */
+		width: 60%;
 	}
-  }
+}
+@media (max-width: 768px) {
+	.modal {
+		/* left: calc(50% - 20rem); */
+		width: 90%;
+	}
+}
+
+.content::-webkit-scrollbar {
+	margin-right: 5px;
+	width: 7px;
+}
+
+/* Track */
+.content::-webkit-scrollbar-track {
+	background: #888;
+	border-radius: 15px;
+}
+  
+/* Handle */
+.content::-webkit-scrollbar-thumb {
+	background: #f1f1f190;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+	background: white;
+}

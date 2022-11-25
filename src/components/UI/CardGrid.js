@@ -3,8 +3,10 @@ import './CardGrid.css';
 function CardGrid(props) {
 	return (
 		<div className='block'>
-			<h2>{props.title}</h2>
-			<p> {props.description} </p>
+			<h2 className='title'>{props.title}</h2>
+			<div className='subtitle'>
+				{props.description}
+			</div>
 			<div className='container'>
 				{props.children}
 			</div>
