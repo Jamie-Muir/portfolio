@@ -19,6 +19,14 @@ const Backdrop = (props) => {
 	return <div className={styles.backdrop} onClick={props.onConfirm} />
 }
 
+// ADD TOOL TIP
+const IconImg = (props) => (
+	<>
+
+		<img src={props.src} alt={props.alt} className={styles.icon} width='50' height='50' />
+	</>
+)
+
 const ModalOverlay = (props) => {
 	return (
 		<Card className={styles.modal} >
@@ -28,20 +36,17 @@ const ModalOverlay = (props) => {
 				<h3>{props.subtitle}</h3>
 			</header>
 
-		
-
 			<div className={styles.content}>
 				{props.children}
 			</div>
 
 			<div className={styles.techIcons}>
-				{props.html && <img src={HtmlSvg} alt='html icon' className={styles.icon} width='50' height='50' />}
-				{props.css && <img src={CSSsvg} alt='css icon' className={styles.icon} width='50' height='50' />}
-				{props.js && <img src={JsSvg} alt='javascript icon' className={styles.icon} width='50' height='50' />}
-				{props.react && <img src={ReactSvg} alt='react icon' className={styles.icon} width='50' height='50' />} 
-				{props.redux && <img src={ReduxSvg} alt='redux icon' className={styles.icon} width='50' height='50' />}
-				{props.sass && <img src={SassSvg} alt='sass icon' className={styles.icon} width='50' height='50' /> }
-
+				{props.html && <IconImg src={HtmlSvg} alt='html icon' />}
+				{props.css && <IconImg src={CSSsvg} alt='css icon' />}
+				{props.js && <IconImg src={JsSvg} alt='javascript icon' />}
+				{props.react && <IconImg src={ReactSvg} alt='react icon' />}
+				{props.redux && <IconImg src={ReduxSvg} alt='redux icon' />}
+				{props.sass && <IconImg src={SassSvg} alt='sass icon' />}
 			</div>
 
 			<footer >

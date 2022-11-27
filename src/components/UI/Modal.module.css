@@ -5,7 +5,7 @@
 	width: 100vw;
 	height: 100vh;
 	z-index: 1000;
-	background-color: rgba(0,0,0, 0.85);
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 .modal {
@@ -14,7 +14,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
+
 	z-index: 10000;
 	overflow: auto;
 	background-color: #333 !important;
@@ -27,29 +27,29 @@
 .header,
 footer {
 	background: #222157;
-	/* padding: 1em; */
 	text-align: center;
 }
-  
+
 .header h2 {
 	margin: 0;
 	color: white;
 	padding-top: 10px;
 }
+
 .header h3 {
 	margin: 0;
 	color: white;
 	padding-bottom: 10px;
 	font-weight: 100;
 }
+
 .closebtn {
 	display: block;
 	margin: 15px;
 	position: absolute;
 	right: 0;
-	/* top: 0; */
 	border-radius: 50px;
-	background-color: rgba(0,0,0, 0);
+	background-color: rgba(0, 0, 0, 0);
 	color: white;
 	border: none;
 	font-size: 2em;
@@ -76,6 +76,11 @@ footer {
 .icon {
 	height: 50px;
 	margin: 10px;
+	transition: linear all .2s;
+}
+
+.icon:hover {
+	transform: scale(1.15);
 }
 
 .content {
@@ -86,7 +91,7 @@ footer {
 	font-size: 1.2em;
 	max-height: 35vh;
 	overflow-y: auto;
-}	
+}
 
 .actions {
 	position: relative;
@@ -120,6 +125,7 @@ footer {
 		width: 60%;
 	}
 }
+
 @media (max-width: 768px) {
 	.modal {
 		/* left: calc(50% - 20rem); */
@@ -137,7 +143,7 @@ footer {
 	background: #888;
 	border-radius: 15px;
 }
-  
+
 /* Handle */
 .content::-webkit-scrollbar-thumb {
 	background: #f1f1f190;

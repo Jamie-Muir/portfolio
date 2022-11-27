@@ -47,23 +47,24 @@
 		display: block;
 		margin: auto;
 	}
-	.gridItem {
+
+	.gridItem,
+	.boxitem {
 		margin-bottom: 10px;
 	}
 }
 
 @media (max-width: 1370px) {
 	.container {
-		/* grid-template-columns: fr; */
 		grid-row-gap: 10px;
-		/* padding: 5% */
 	}
+
 	.gridItem:not(:nth-child(4n+2)):not(:nth-child(4n+3)) {
 		grid-column: span 2;
 	}
-	
-	.gridItemReverse:not(:nth-child(4n + 1)):not(:nth-child(4n + 4)) {
+
+	/* .gridItemReverse:not(:nth-child(4n + 1)):not(:nth-child(4n + 4)) {
 		grid-column: span 1;
-	}
-	
-} 
+	} */
+
+}

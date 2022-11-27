@@ -12,7 +12,7 @@ function Puzzles() {
 			<ProjectCard
 				showTitle
 				title='FizzBuzz'
-				// className='gridItemReverse'
+				className='boxitem'
 				background={fizzbuzz}
 				live='https://jamie-muir.github.io/fizzbuzz'
 				github='https://github.com/Jamie-Muir/fizzbuzz'
@@ -22,7 +22,7 @@ function Puzzles() {
 
 			<ProjectCard
 				title='BIG card'
-				className='gridItemReverse'
+				className='boxitem'
 				disabled
 			>
 				This is a little card I think
@@ -30,7 +30,7 @@ function Puzzles() {
 
 			<ProjectCard
 				title='BIG card'
-				className='gridItemReverse'
+				className='boxitem'
 				disabled
 			>
 				<p>This is a card I think</p>
@@ -38,7 +38,7 @@ function Puzzles() {
 
 			<ProjectCard
 				title='lil Card'
-				className='gridItemReverse'
+				className='boxitem'
 				disabled
 			>
 				This is a card I think
@@ -46,7 +46,7 @@ function Puzzles() {
 
 			<ProjectCard
 				title='lil Card'
-				className='gridItemReverse'
+				className='boxitem'
 				disabled
 			>
 				This is a card I think
@@ -54,7 +54,7 @@ function Puzzles() {
 
 			<ProjectCard
 				title='BIG Card'
-				className='gridItemReverse'
+				className='boxitem'
 				disabled
 			>
 				This is a card I think
