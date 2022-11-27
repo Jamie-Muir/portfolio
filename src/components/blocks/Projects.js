@@ -30,9 +30,9 @@ function Projects() {
 				subtitle='Website Redesign'
 				className='gridItem'
 				background={gramp}
-				live='https://jamie-muir.github.io/GrampianSecure/'
+				live='https://jamie-muir.github.io/grampian-secure/'
 				//'https://www.grampiansecure.co.uk'
-				github='https://github.com/Jamie-Muir/GrampianSecure'
+				github='https://github.com/Jamie-Muir/grampian-secure'
 				html css js react
 			>
 				A website redesign project for a local security company with the purpose of building a faster and smoother user experience than their current solution that could also be decoupled from their hosting service.
