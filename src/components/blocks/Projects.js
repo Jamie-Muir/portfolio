@@ -110,7 +110,7 @@ function Projects() {
 				title=''
 				subtitle=''
 				className='gridItem'
-				background={''}
+				// background={''}
 				disabled
 			>
 				This is a card I think

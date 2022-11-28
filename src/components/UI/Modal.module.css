@@ -8,21 +8,30 @@
 	background-color: rgba(0, 0, 0, 0.85);
 }
 
+.modalOpen {
+	animation: openModal 0.4s ease-out forwards;
+
+}
+
 .modal {
 	position: fixed;
 
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 20%;
+	left: 20%;
 
 	z-index: 10000;
 	overflow: auto;
 	background-color: #333 !important;
 	border: #222157 solid 15px;
 	max-height: 80%;
-
+	width: 60%;
 	overflow: hidden;
+
+	/* transform: translate(-50%, -50%); */
+
 }
+
+
 
 .header,
 footer {
@@ -119,16 +128,16 @@ footer {
 	color: black;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 	.modal {
-		/* left: calc(50% - 20rem); */
+		left: calc(50% - 20rem);
 		width: 60%;
 	}
-}
+} */
 
 @media (max-width: 768px) {
 	.modal {
-		/* left: calc(50% - 20rem); */
+		left: calc(50% - 15rem);
 		width: 90%;
 	}
 }
@@ -153,4 +162,22 @@ footer {
 /* Handle on hover */
 .content::-webkit-scrollbar-thumb:hover {
 	background: white;
+}
+
+
+@keyframes openModal {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+
+	50% {
+		opacity: .8;
+		transform: translateY(10%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
 }

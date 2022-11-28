@@ -14,10 +14,10 @@ function About() {
 				<li></li>
 			</ul>
 			<div className='about-content'>
-				<img src={AboutDraw} alt='about' />
+				<img src={AboutDraw} alt='about' width='500px' height='500px' />
 				<p>
 					I'm Jamie, a graduate looking to apply my skills in the wide world of web development.
-					<br/><br/>
+					<br /><br />
 					I began writing code with Java back in 2009 when I first learned how to build Minecraft mods to add little extras to my game. None of what I wrote exactly took off, nor was it particularly good, but I did manage to make my character shoot fireballs, so that was cool.
 					<br /><br />
 					After finishing school, I then went to college to get my Higher National Diploma. While there I experimented in lots of languages; A friend and I explored making a small dungeon crawler puzzle game with Python / Pygame, I had a class using Game Maker where I applied what I had learned in Java to make my submission stand out from the rest, and I tackled <i>Accelerated C++ by Andrew Koenig & Barbara E. Moo</i> and challenged myself with... well, C++... and although I didn't continue with C++ what I learned expanded my vocabularly at the least, and gave me a solid foundation for taking on the more advanced topics that I would go on to find at University.

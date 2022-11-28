@@ -17,7 +17,11 @@ function Puzzles() {
 				live='https://jamie-muir.github.io/fizzbuzz'
 				github='https://github.com/Jamie-Muir/fizzbuzz'
 			>
-				This is a big card I think
+				If a number is a multiple of X, print Fizz. If a number is a multiple of Y, print Buzz.
+				<br />
+				If both are true, print FizzBuzz.
+				<br /><br />
+				A test to demostrate self-documenting, DRY, and maintainable code.
 			</ProjectCard>
 
 			<ProjectCard

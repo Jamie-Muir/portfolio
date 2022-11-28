@@ -22,14 +22,17 @@ const Backdrop = (props) => {
 // ADD TOOL TIP
 const IconImg = (props) => (
 	<>
-
 		<img src={props.src} alt={props.alt} className={styles.icon} width='50' height='50' />
 	</>
 )
 
+
 const ModalOverlay = (props) => {
+
+	const modalAnimation = props.modalIsOpen ? styles.modalOpen : '';
+
 	return (
-		<Card className={styles.modal} >
+		<Card className={`${styles.modal} ${modalAnimation}`} >
 			<header className={styles.header} >
 				<button onClick={props.onConfirm} className={styles.closebtn}> &times; </button>
 				<h2>{props.title}</h2>

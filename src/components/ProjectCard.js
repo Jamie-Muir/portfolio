@@ -9,11 +9,17 @@ function ProjectCard(props) {
 
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 
+	const setBodyScroll = (style) => document.body.style.overflow = style
+
 	const openModal = () => {
-		if(props.disabled) return;
+		if (props.disabled) return;
 		setModalIsOpen(true);
+		setBodyScroll('hidden');
 	}
-	const closeModal = () => setModalIsOpen(false);
+	const closeModal = () => {
+		setModalIsOpen(false);
+		setBodyScroll('scroll')
+	}
 
 	const { className, background, ...newProps } = props;
 
@@ -23,6 +29,7 @@ function ProjectCard(props) {
 				<Modal
 					{...newProps}
 					onConfirm={closeModal}
+					modalIsOpen={modalIsOpen}
 				/>
 			}
 			<div
