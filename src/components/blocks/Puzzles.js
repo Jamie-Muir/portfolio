@@ -2,6 +2,7 @@ import ProjectCard from "../ProjectCard";
 import CardGrid from "../UI/CardGrid";
 
 import fizzbuzz from '../../assets/images/fizzbuzz.webp';
+import xandos from '../../assets/images/xandos.webp';
 
 function Puzzles() {
 	return (
@@ -12,6 +13,7 @@ function Puzzles() {
 			<ProjectCard
 				showTitle
 				title='FizzBuzz'
+				subtitle='The Classic'
 				className='boxitem'
 				background={fizzbuzz}
 				live='https://jamie-muir.github.io/fizzbuzz'
@@ -25,9 +27,12 @@ function Puzzles() {
 			</ProjectCard>
 
 			<ProjectCard
-				title='BIG card'
+				title='Noughts & Crosses'
+				subtitle='React Context Applet'
 				className='boxitem'
-				disabled
+				background={xandos}
+				live='https://jamie-muir.github.io/noughts-and-crosses'
+				github='https://github.com/Jamie-Muir/noughts-and-crosses'
 			>
 				This is a little card I think
 			</ProjectCard>
