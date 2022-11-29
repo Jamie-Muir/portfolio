@@ -18,7 +18,6 @@
 
 .aboutList li {
 	margin: 20px;
-	/* padding: 5px; */
 }
 
 .about-content {
@@ -29,12 +28,10 @@
 
 .about-content p {
 	padding-left: 50px;
-	/* width: 90%; */
 }
 
 .about-content img {
-	/* width: 40%;
-	height: auto; */
+	max-height: 30vh;
 	width: 100%;
 	margin: auto;
 }

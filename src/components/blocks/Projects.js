@@ -102,7 +102,7 @@ function Projects() {
 				disabled
 				html css js react sass
 			>
-				This is a card I think
+				<br />
 			</ProjectCard>
 
 			{/* NUMBER 5 */}
@@ -113,7 +113,7 @@ function Projects() {
 				// background={''}
 				disabled
 			>
-				This is a card I think
+				<br />
 			</ProjectCard>
 
 			{/* NUMBER 6 */}
@@ -125,7 +125,7 @@ function Projects() {
 				background={''}
 				disabled
 			>
-				This is a card I think
+				<br />
 			</ProjectCard>
 
 		</CardGrid>
