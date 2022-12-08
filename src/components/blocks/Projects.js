@@ -30,9 +30,8 @@ function Projects() {
 				subtitle='Website Redesign'
 				className='gridItem'
 				background={gramp}
-				// live='https://jamie-muir.github.io/grampian-secure/'
-				//'https://www.grampiansecure.co.uk'
-				github='https://github.com/Jamie-Muir/grampian-secure'
+				live='https://www.grampiansecure.co.uk'
+				// github='https://github.com/Jamie-Muir/grampian-secure'
 				html css js react
 			>
 				A website redesign project for a local security company with the purpose of building a faster and smoother user
@@ -78,7 +77,7 @@ function Projects() {
 			</ProjectCard>
 
 			{/* NUMBER 3 */}
-			<ProjectCard
+			{/* <ProjectCard
 				showTitle
 				title='Expense Tracker'
 				subtitle='Practice Applet'
@@ -92,13 +91,13 @@ function Projects() {
 				<br /> <br />
 				Base UI is from Academind's React - The Complete Guide course, I have extended the functionality to include a
 				Firebase backend.
-			</ProjectCard>
+			</ProjectCard> */}
 
 			{/* NUMBER 4 */}
 			<ProjectCard
 				title='ReactBook'
 				className='gridItem'
-				background={reactbook}
+				// background={reactbook}
 				disabled
 				html css js react sass
 			>
